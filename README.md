@@ -4,7 +4,7 @@ The won't update Cloudflare unless your IP address changes and it works with a f
 
 Current IP address is retrieved from [ifconfig.co](https://ifconfig.co)
 
-The *.sh files should be placed in ```/etc/dnsupdater/```
+The *.sh files should be placed in ```/etc/dnsupdater/``` and made executable
 
 The credential files should be placed in ```/root/.creds/``` and set with read-only permissions for the root user
 
