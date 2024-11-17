@@ -1,7 +1,6 @@
-# dnsUpdater
-## Dynamic DNS updater for Cloudflare using the REST API
+# Dynamic DNS updater for Cloudflare using the REST API
 
-The won't actually update Cloudflare unless your IP address changes and it works with a free Cloudflare account
+The won't update Cloudflare unless your IP address changes and it works with a free Cloudflare account
 
 Current IP address is retrieved from [ifconfig.co](https://ifconfig.co)
 
