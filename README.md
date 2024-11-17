@@ -1,9 +1,10 @@
 # dnsUpdater
 Dynamic DNS updater for Cloudflare using the REST API
 
-The won't actually update Cloudflare unless your IP address changes and works with a free Cloudflare account
+The won't actually update Cloudflare unless your IP address changes and it works with a free Cloudflare account
 
-Current IP address is retrieved from <a href="https://ifconfig.co" target="_blank">ifconfig.co</a>
+Current IP address is retrieved from [ifconfig.co](https://ifconfig.co)
+
 
 The *.sh files should be placed in ```/etc/dnsupdater/```
 
