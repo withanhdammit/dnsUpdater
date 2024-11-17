@@ -1,0 +1,9 @@
+# This should be placed in /root/.creds/twilio
+# set permissions to read-only for the root user
+# sudo chmod 0400 /root/.creds/twilio
+# Your Twilio account_sid
+auth_sid="ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+# Your Twilio auth_token
+auth_token="22fd7c867a17e530b24d38a8a35bd42f"
+# Your Twilio send from number
+from_number="+18005551212"
