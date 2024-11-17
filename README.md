@@ -7,7 +7,7 @@ Current IP address is retrieved from [ifconfig.co](https://ifconfig.co)
 The files should be placed in ```/etc/dnsupdater/``` and made executable
 
 ```bash
-sudo git clone https://github.com/withanhdammit/dnsupdater /etc/dnsupdater
+sudo git clone https://github.com/withanhdammit/dnsupdater.git /etc/dnsupdater
 ```
 
 The credential files should be moved to ```/root/.creds/``` and set with read-only permissions for the root user
