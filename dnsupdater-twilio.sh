@@ -225,7 +225,7 @@ if [[ -n "$currentIP" && -n "$newIP" && "$currentIP" = "$newIP" ]]; then
     logit 1 "IP address for $fqdn $currentIP did not change"
 else
     # different IP, execute update
-    logit 1 "Updating DNS for $fqdn from $currentIP to $newIP"
+    logit 2 "Updating DNS for $fqdn from $currentIP to $newIP"
 
     # API call to update DNS record
     retries=3
