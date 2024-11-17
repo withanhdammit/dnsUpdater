@@ -1,0 +1,5 @@
+# This should be placed in /root/.creds/cloudflare
+# set permissions to read-only for the root user
+# sudo chmod 0400 /root/.creds/cloudflare
+auth_email="<your-cloudflare-email-address>"
+auth_key="<your-cloudflare-auth-key>"
