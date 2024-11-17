@@ -18,6 +18,6 @@ sudo chmod 0400 /root/.creds/cloudflare
 Schedule the script to run every 15 minutes with a root cron job
 
 ```bash
-(sudo crontab -l; echo "*/15    *        *       *       *      /etc/dnsupdater/dnsupdater.sh") | sudo crontab -
+(sudo crontab -l; echo "*/15    *        *       *       *      /etc/dnsupdater/dnsupdater.sh fqdn.domain.com") | sudo crontab -
 ```
 
